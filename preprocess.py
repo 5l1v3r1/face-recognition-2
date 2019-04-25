@@ -34,7 +34,7 @@ class preprocesses:
         # Add a random key to the filename to allow alignment using multiple processes
         random_key = np.random.randint(0, high=99999)
         bounding_boxes_filename = os.path.join(output_dir, 'bounding_boxes_%05d.txt' % random_key)
-        "/home/ramo/"
+        
 
         with open(bounding_boxes_filename, "w") as text_file:
             nrof_images_total = 0
